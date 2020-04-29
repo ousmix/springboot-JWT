@@ -35,6 +35,7 @@ public void run(String... args) throws Exception {
 	AccountService.addRoleToUser("user", "USER");
 	AccountService.saveEmployee(new Employee(null, "oussama", "eddai", "oussama.eddai@gmail.com"));
 	AccountService.saveEmployee(new Employee(null, "khadija", "baidek", "khadija.baidek@gmail.com"));
+	AccountService.saveEmployee(new Employee(null, "ahmed", "bakri", "ahmed.bakri@gmail.com"));
 }
 
 
